@@ -1,0 +1,134 @@
+.page {
+  max-width: 360px;
+  min-height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.header {
+  padding: 13px 31px 0;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+.header__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+.header__user {
+  display: flex;
+  align-items: center;
+}
+.user__pic {
+}
+.user__name {
+  display: inline-block;
+  width: 88px;
+  font-size: 12px;
+  margin-left: 10px;
+}
+.user__name::first-line {
+  color: #2260FF;
+}
+.top__buttons {
+}
+.top__btn {
+  background-color: #CAD6FF;
+  width: 27px;
+  border-radius: 50px;
+}
+.top__btn svg {
+  margin-top: 4px;
+}
+.header__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav__links {
+  display: flex;
+  align-items: last baseline;
+}
+.nav__links svg{
+  margin-left: 10px;
+}
+.nav__link {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  color: #2260FF;
+  margin-top: 6px;
+  margin-right: 9px;
+}
+.nav__search {
+  width: 190px;
+  height: 33px;
+  background-color: #CAD6FF;
+  border-radius: 23px;
+  border: none;
+}
+.nav__search:focus {
+  outline: none;
+}
+.nav__input {
+  position: relative;
+}
+.nav__setting {
+  background-color: #fff;
+  width: 26px;
+  height: 26px;
+  border-radius: 50px;
+  position: absolute;
+  left: 3px;
+  top: 3.5px;
+}
+.nav__searching {
+  position: absolute;
+  right: 8px;
+  top: 7px;
+}
+/* =====================================MAIN==================================================== */
+.main__calendar {
+  background-color: #CAD6FF;
+  height: 230px;
+  padding: 16px 30px 18px;
+}
+.calendar__days {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 9px;
+}
+.day {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  width: 42px;
+  height: 64px;
+  padding-top: 12px;
+  border-radius: 18px;
+  transition: 0.3s;
+}
+.day__num {
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+}
+.day__name {
+  font-family: sans-serif;
+  font-weight: 200;
+  font-size: 12px;
+}
+.day:hover {
+  background-color: #2260FF;
+  color: #fff;
+}
+.calendar__event {
+  height: 123px;
+  background-color: #fff;
+  border-radius: 20px;
+}
